@@ -31,7 +31,7 @@ const HeroSection = () => {
               Hi, I'm
             </span>
             <br />
-            <span className="text-foreground">Your Name</span>
+            <span className="text-foreground">ARPIT SINGH</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground/80 max-w-2xl mx-auto leading-relaxed">
@@ -59,19 +59,24 @@ const HeroSection = () => {
           
           <div className="flex justify-center space-x-6 mt-8">
             <a 
-              href="#" 
-              className="text-foreground/60 hover:text-primary-glow transition-all duration-300 hover:scale-110"
+             href="https://github.com/theycallmearpit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground/60 hover:text-primary-glow transition-all duration-300 hover:scale-110"
+             
             >
               <Github size={24} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/arpit-singh-46bb30356/" 
+             target="_blank"
+            rel="noopener noreferrer"
               className="text-foreground/60 hover:text-accent-blue transition-all duration-300 hover:scale-110"
             >
               <Linkedin size={24} />
             </a>
             <a 
-              href="#" 
+              href="mailto:theycallmearpit43@gmail.com"
               className="text-foreground/60 hover:text-accent-cyan transition-all duration-300 hover:scale-110"
             >
               <Mail size={24} />

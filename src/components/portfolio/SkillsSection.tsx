@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Badge } from '@/components/ui/badge';
 
 const SkillsSection = () => {
@@ -38,13 +39,14 @@ const SkillsSection = () => {
               </h3>
               <div className="flex flex-wrap gap-3 justify-center">
                 {category.skills.map((skill, skillIndex) => (
-                  <Badge 
-                    key={skillIndex} 
-                    variant="secondary" 
-                    className="bg-card/50 border border-white/10 text-foreground hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 px-3 py-1"
-                  >
-                    {skill}
-                  </Badge>
+                  <React.Fragment key={skillIndex}>
+                    <Badge 
+                      variant="secondary"
+                      className="bg-card/50 border border-white/10 text-foreground hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 px-3 py-1"
+                    >
+                      {skill}
+                    </Badge>
+                  </React.Fragment>
                 ))}
               </div>
             </div>

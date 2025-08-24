@@ -9,20 +9,20 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@yourname.com",
-      href: "mailto:hello@yourname.com"
+      value: "theycallmearpit43@gmail.com",
+      href: "mailto:theycallmearpit43@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 9528211856",
+      href: "tel:+91 9528211856"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
-      href: "#"
+      value: "haldwani, India",
+      href: "https://www.google.com/maps/place/Haldwani,+Uttarakhand,+India"
     }
   ];
 

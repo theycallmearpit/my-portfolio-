@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:hello@yourname.com", label: "Email" },
+    { icon: Github, href: "https://github.com/theycallmearpit", label: "GitHub" },
+    { icon: Linkedin, href:"https://www.linkedin.com/in/arpit-singh-46bb30356/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:theycallmearpit43@gmail.com", label: "Email" },
   ];
 
   return (
@@ -31,10 +31,10 @@ const Footer = () => {
           
           <div className="space-y-2">
             <p className="text-foreground/60 text-sm">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Arpit singh. All rights reserved.
             </p>
             <p className="text-foreground/40 text-xs flex items-center justify-center gap-1">
-              Built with <Heart size={12} className="text-red-500 animate-pulse" /> using React & TypeScript
+              Built  using React & TypeScript
             </p>
           </div>
         </div>
